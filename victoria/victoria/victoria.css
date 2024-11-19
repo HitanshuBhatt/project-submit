@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6161a4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #ff7f50;
+}
+
+.logo img {
+    max-width: 150px; /* Adjusted size for consistency */
+}
+.multicol {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    column-gap: 1.5em;
+    margin: 20px;
+    padding: 20px;
+    background: grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+.multicol p {
+    margin-bottom: 1em;
+    color: #f2f2f2;
+}
+
+ h2.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(41, 41, 244) ;
+    
+}
+
+
+div.container {
+   
+    text-align:center;
+    padding: 10px 20px;
+}
+
+div.polaroid1{
+    
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+    margin-right: 90px;
+    margin-left: 170px; 
+    margin-top: 20px; 
+}
+
+.polaroid1 img{
+    width: 400px;
+    height: 300px;
+}
+
+div.polaroid2{
+    
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+    margin-right: 90px;
+    margin-left: 170px;  
+}
+.polaroid2 img{
+    width: 400px;
+    height: 300px;
+}
+
+
+div.inline{
+    
+    display: flex; 
+   align-items: center;
+    background-image: url(rtrp6.jpg);
+   
+
+}
+
+div.v1 p{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: lightslategray;
+
+    padding: 2px;
+    
+}
+
+h2.heading2
+{
+    
+   
+    border-radius: 8px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(41, 41, 244) ;
+    background-image:white;
+}
+
+h2.heading2:hover{
+    background-color:lightslategray;
+    font-size: 18px;
+}
+
+div.inline2{
+    display: flex; 
+    background-image: url(rtrp6.jpg);
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+p.trip1{
+    background-color:lightslategray;
+    color: white;
+    font-size: 18px;
+
+}
+p.trip2{
+    background-color: aqua;
+    font-size: 18px;
+}
+table{
+
+    width:50;
+    justify-content: center;
+    border-collapse: collapse;
+    margin:20px,0;
+    margin-top: 20px;
+    background-color: rgb(197, 123, 123);
+    border: 2px solid yellowgreen;
+    border-radius: 8px;
+    margin-left: 500px;
+    
+}
+ td, tr {
+    padding:5px;
+    border: 2px solid yellowgreen;
+}
+
+td.head1{
+    background-color: white;
+}
+
+footer{
+    max-width: 100%;
+    background-color: bisque;
+}
+p.left{
+    margin-right: 0px;
+}
+
+button.button2 {
+    margin-top: 20px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    margin-left: 200px;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  
+button.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.form{
+    width: 100%;
+}
+textarea{
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-left: auto;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.1);
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-family: "Arial, Helvetica, sans-serif";
+}
+.form button{
+    justify-content: center;
+    display: inline-block;
+    color: rgb(230, 32, 32);
+    background-color: hsl(170, 27%, 43%);
+    padding: 10px 35px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border-radius: 50px;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 1.4rem;
+}
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-section .fact {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4B0082;
+}
+.grid{
+    border: 1px solid #ccc;
+    justify-content: center;
+    
+}
+
+.float-image {
+    float: left; 
+    margin: 20px; 
+    width: 500px; 
+    height: 400px; 
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo img {
+        max-width: 50%; 
+        margin-bottom: 10px;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .nav-menu li {
+        margin-right: 0;
+    }
+
+    div.inline, div.inline2 {
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    div.polaroid1, div.polaroid2 {
+        margin: 0 auto 20px auto; 
+        width: 90%; 
+    }
+
+    .polaroid1 img, .polaroid2 img {
+        width: 100%;
+        height: auto; 
+    }
+
+    table {
+        width: 90%; 
+        margin: 20px auto; 
+    }
+
+    button.button2 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    .form button {
+        width: auto; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    h2.heading1, h2.heading2 {
+        font-size: 1.5rem; 
+    }
+
+    p.trip1, p.trip2 {
+        font-size: 1rem; 
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
